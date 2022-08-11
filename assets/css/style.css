@@ -34,7 +34,7 @@ This files table contents are outlined below>>>>>
 body {
   font-family: "Poppins", sans-serif;
   color: #858584;
-  background-color: black;
+  background-color:#ffffff;
   font-size: 15px;
 }
 
@@ -427,7 +427,7 @@ button:focus {
 
 .section-title .sub-title {
   font-weight: 500;
-  color: #ffffff;
+  color: black;
   text-transform: uppercase;
   position: relative;
   display: block;
