@@ -34,7 +34,7 @@ This files table contents are outlined below>>>>>
 body {
   font-family: "Poppins", sans-serif;
   color: #858584;
-  background-color: #ffffff;
+  background-color: black;
   font-size: 15px;
 }
 
@@ -111,7 +111,7 @@ button:focus {
 }
 
 .main-nav {
-  background: black;
+  background: #ffffff;
   padding-top: 0;
   padding-bottom: 0;
 }
