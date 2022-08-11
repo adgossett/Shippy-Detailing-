@@ -45,7 +45,7 @@ if (empty($_POST["gridCheck"])) {
 }
 
 // Update here your email address
-$EmailTo = "adgossett@live.com";
+$EmailTo = "adgossett37@gmail.com";
 
 $Subject = "New Message Received";
 
