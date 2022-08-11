@@ -209,79 +209,172 @@ Austin.shippy16@gmail.com
                             </ul>
                         </div>
                     </div>    
-			<div class="col-lg-6">
-                        <div class="contact-item contact-right">
-                            <h3>Get In Touch</h3>
-                            <form id="contactForm">
-                                <div class="row">
-                                    <div class="col-sm-6 col-lg-6">
-                                        <div class="form-group">
-                                            <input type="text" name="name" id="name" class="form-control" required data-error="Please enter your name" placeholder="Name">
-                                            <div class="help-block with-errors"></div>
-                                        </div>
-                                    </div>
-        
-                                    <div class="col-sm-6 col-lg-6">
-                                        <div class="form-group">
-                                            <input type="email" name="email" id="email" class="form-control" required data-error="Please enter your email" placeholder="Email">
-                                            <div class="help-block with-errors"></div>
-                                        </div>
-                                    </div>
+			<style>
+			h1 {
+  text-align: center;
+  margin: 35px 0 20px 0 !important;
+}
+*----- Contact CSS -----*/
+.form-group .form-row {
+  margin-bottom: 30px;
+}
 
-                                    <div class="col-sm-6 col-lg-6">
-                                        <div class="form-group">
-                                            <input type="text" name="phone_number" id="phone_number" required data-error="Please enter your number" class="form-control" placeholder="Phone">
-                                            <div class="help-block with-errors"></div>
-                                        </div>
-                                    </div>
-            
-                                    <div class="col-sm-6 col-lg-6">
-                                        <div class="form-group">
-                                            <input type="text" name="msg_subject" id="msg_subject" class="form-control" required data-error="Please enter your subject" placeholder="Subject">
-                                            <div class="help-block with-errors"></div>
-                                        </div>
-                                    </div>
-        
-                                    <div class="col-md-12 col-lg-12">
-                                        <div class="form-group">
-                                            <textarea name="message" class="form-control" id="message" cols="30" rows="8" required data-error="Write your message" placeholder="Message"></textarea>
-                                            <div class="help-block with-errors"></div>
-                                        </div>
-                                    </div>
+.form-group .form.col {
+  font-size: 24px;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
 
-                                    <div class="col-lg-12 col-md-12">
-                                        <div class="form-group">
-                                            <div class="form-check agree-label">
-                                                <input
-                                                    name="gridCheck"
-                                                    value="I agree to the terms and privacy policy."
-                                                    class="form-check-input"
-                                                    type="checkbox"
-                                                    id="gridCheck"
-                                                    required
-                                                >
-                                                <label class="form-check-label" for="gridCheck">
-                                                    Accept <a href="terms-condition.html">Terms & Conditions</a> And <a href="privacy-policy.html">Privacy Policy.</a>
-                                                </label>
-                                                <div class="help-block with-errors gridCheck-error"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-        
-                                    <div class="col-md-12 col-lg-12">
-                                        <button type="submit" class="contact-btn btn">
-                                            Send Message
-                                        </button>
-                                        <div id="msgSubmit" class="h3 text-center hidden"></div>
-                                        <div class="clearfix"></div>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+.form-group .form.col  {
+  margin: 0;
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+.form-group .form.col {
+  margin: 0;
+  padding: 0;
+}
+
+.form-group .form.col {
+  list-style-type: none;
+  display: block;
+  color: #333333;
+  font-size: 15px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #dddddd69;
+  padding-bottom: 20px;
+}
+
+.form-group .form.col :last-child {
+  margin-bottom: 0;
+}
+
+.contact-area .contact-left ul li i {
+  font-size: 21px;
+  color: #333333;
+  margin-right: 5px;
+  position: relative;
+  bottom: -5px;
+}
+
+.contact-area .contact-left ul li a {
+  display: inline-block;
+  color: #333333;
+}
+
+.contact-area .contact-left ul li a:hover {
+  color: #fdb819;
+}
+
+.contact-area .contact-right h3 {
+  font-size: 24px;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+.contact-area .contact-right .form-group {
+  margin-bottom: 25px;
+}
+
+.contact-area .contact-right .form-group .form-control {
+  border: 1px solid #fdb819;
+  border-radius: 0;
+  height: 50px;
+  padding-left: 25px;
+  font-size: 14px;
+}
+
+.contact-area .contact-right .form-group .form-control:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: 1px solid #333333;
+}
+
+.contact-area .contact-right .form-group textarea {
+  height: auto !important;
+  padding-top: 15px;
+}
+
+.contact-area .contact-right .form-group ::-webkit-input-placeholder {
+  color: #333333;
+}
+
+.contact-area .contact-right .form-group :-ms-input-placeholder {
+  color: #333333;
+}
+
+.contact-area .contact-right .form-group ::-ms-input-placeholder {
+  color: #333333;
+}
+
+.contact-area .contact-right .form-group ::placeholder {
+  color: #333333;
+}
+
+.contact-area .contact-right .form-group .list-unstyled {
+  color: #dc3545;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.contact-area .contact-right .contact-btn {
+  background-color: #fdb819;
+  color: #ffffff;
+  width: 100%;
+  border-radius: 0;
+  padding: 12px 0;
+  text-transform: uppercase;
+  -webkit-transition: 0.5s all ease;
+  transition: 0.5s all ease;
+  opacity: 1;
+  font-weight: 600;
+}
+
+.contact-area .contact-right .contact-btn:hover {
+  background-color: #333333;
+}
+
+.contact-area .contact-right .text-danger {
+  font-size: 20px;
+  margin-top: 12px;
+  color: #dc3545;
+}
+
+.contact-area .contact-right .text-success {
+  font-size: 20px;
+  margin-top: 12px;
+  color: #28a745;
+}
+
+/*----- End Contact CSS -----*/
+
+</style>
+			<div class="container">
+  <h1>Get in Touch</h1>
+  <form target="_blank" action="https://formsubmit.co/adgossett@live.com" method="POST">
+    <div class="form-group">
+      <div class="form-row">
+        <div class="col">
+          <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+        </div>
+        <div class="col">
+          <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+        </div>
+         <div class="col">
+          <input type="text" name="phone_number" class="form-control" placeholder="phone number" required>
+        </div>
+        <div class="col">
+          <input type="text" name="msg_subject" class="form-control" placeholder="subject" required>
+        </div>
+      </div>
+    </div>
+    <div class="form-group">
+      <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
+    </div>
+    <button type="submit" class="btn btn-lg btn-dark btn-block">Submit Form</button>
+  </form>
+</div>
 
         <!-- End Contact Area -->
 
