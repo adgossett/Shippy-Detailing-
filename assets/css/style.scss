@@ -38,7 +38,7 @@ $white-color: #ffffff;
 $black-color: #333333;
 $grey-color: #858584;
 $yellow-color: #fdb819;
-$main-color: #333333; 
+$main-color: $black-color; 
 
 /*-- Default CSS --*/
 body {
