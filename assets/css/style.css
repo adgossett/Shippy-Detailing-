@@ -33,11 +33,10 @@ This files table contents are outlined below>>>>>
 /*-- Default CSS --*/
 body {
   font-family: "Poppins", sans-serif;
-  color: black;
-  background-color:black;
+  color: #858584;
+  background-color: #333333;
   font-size: 15px;
 }
-
 h1,
 h2,
 h3,
@@ -111,7 +110,7 @@ button:focus {
 }
 
 .main-nav {
-  background: #ffffff;
+  background: black;
   padding-top: 0;
   padding-bottom: 0;
 }
